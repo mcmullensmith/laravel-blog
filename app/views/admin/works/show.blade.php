@@ -1,0 +1,1 @@
+/Users/Mattsmith/github/local/mcmullensmith-blog/app/views/works/show.blade.php
