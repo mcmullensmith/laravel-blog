@@ -14,9 +14,9 @@
         </div>
         <div id="navbar" class="navbar-collapse collapse">
             <ul class="nav navbar-nav">
-                <li class="{{ set_active('/posts') }}"><a href="/admin/posts">Posts</a></li>
-                <li class="{{ set_active('works') }}"><a href="/admin/works">Work</a></li>
-                <li class="{{ set_active('images') }}"><a  href="/admin/images">Images</a></li>
+                <li class="{{ set_active('admin/posts') }}"><a href="/admin/posts">Posts</a></li>
+                <li class="{{ set_active('admin/works') }}"><a href="/admin/works">Work</a></li>
+                <li class="{{ set_active('admin/images') }}"><a  href="/admin/images">Images</a></li>
             </ul>
 
             </ul>
