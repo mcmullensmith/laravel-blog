@@ -1,7 +1,7 @@
 @extends('admin._layouts.admin')
 
 @section('content')
-    <h1>Users</h1>
+    <h1>Work</h1>
     {{ link_to_route('admin.works.create', 'Create new Work') }}
 
     @if(count($works))

@@ -6,15 +6,17 @@
     <title>Blog Admin panel</title>
 
     {{ HTML::style('css/admin.css') }}
+    {{ HTML::style('css/bootstrap.min.css') }}
 </head>
 <body>
    <header>
 	<div class="container">
-		<h1>My Admin Panel</h1>
+
         @include('admin._layouts.nav')
 	</div>
 </header>
 <main class="container">
+
     @yield('content')
 </main>
 
