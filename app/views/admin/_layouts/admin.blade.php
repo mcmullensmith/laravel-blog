@@ -9,12 +9,12 @@
     {{ HTML::style('css/bootstrap.min.css') }}
 </head>
 <body>
-   <header>
+
 	<div class="container">
 
         @include('admin._layouts.nav')
 	</div>
-</header>
+
 <main class="container">
 
     @yield('content')

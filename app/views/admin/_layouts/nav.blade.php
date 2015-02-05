@@ -19,6 +19,11 @@
                 <li class="{{ set_active('admin/images') }}"><a  href="/admin/images">Images</a></li>
             </ul>
 
+            <ul class="nav navbar-nav navbar-right">
+                @if (Auth::user())
+                    <li><a href="/admin/logout/">Log Out</a></li>
+                @endif
+
             </ul>
         </div><!--/.nav-collapse -->
     </div><!--/.container-fluid -->
